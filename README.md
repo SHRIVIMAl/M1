@@ -58,14 +58,16 @@ Write a C program to read A values and check whether A is positive number or not
 	#include <stdio.h>
 	int main()
 	{
-	    int num;
-	    scanf("%d", &num);
-	    switch ((num > 0) - (num < 0)) 
-	    {
-	        case 1: printf("%d is positive.\n", num); break;
-	        case -1: printf("%d is negative.\n", num); break;
-	        default: printf("Number is zero.\n");
-	    }
+	    int A;
+	    scanf("%d", &A);
+	    if(A > 0){
+     		printf("%d is positive.\n", A");
+       	    }
+	    else if(A < 0){
+     		printf("%d is negative.\n", A);
+            }
+	    else{
+         	printf("Number is zero.\n");
 	    return 0;
 	}
 
