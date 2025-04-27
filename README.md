@@ -205,17 +205,17 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 	#include <stdio.h>
 	int main() 
 	{
-	    int sub1, sub2, sub3, total;
-	    float percentage;
-	    scanf("%d %d %d", &sub1, &sub2, &sub3);
+	    int m1, m2, m3;
+	    float total,percentage;
+	    scanf("%d %d %d", &m1, &m2, &m3);
 	    
-	    total = sub1 + sub2 + sub3;
-	    percentage = (total / 3.0);
+	    total = m1 + m2 + m3;
+	    percentage = (total / 3);
 	    
-	    printf("Total Marks = %d\n", total);
+	    printf("Total Marks = %.0f\n", total);
 	    printf("Percentage = %.2f\n", percentage);
 	    
-	    if (sub1 < 40 || sub2 < 40 || sub3 < 40) 
+	    if (m1 < 40 || m2 < 40 || m3 < 40) 
 	    {
 	        printf("Division = Fail\n");
 	    } 
