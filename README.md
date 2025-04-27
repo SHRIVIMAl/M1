@@ -52,7 +52,7 @@ Write a C program to read A values and check whether A is positive number or not
 3.	Check if the value of A is greater than zero.
 4.	If A is greater than zero, print a message indicating that it's a positive number. 
 5.	Otherwise, print a message indicating that it's not a positive number.
-6.End the program.
+6.	End the program.
 
 # PROGRAM:
 	#include <stdio.h>
