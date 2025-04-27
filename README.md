@@ -62,12 +62,13 @@ Write a C program to read A values and check whether A is positive number or not
 	    scanf("%d", &A);
 	    if(A > 0){
      		printf("%d is positive.\n", A");
-       	    }
+       	    	}
 	    else if(A < 0){
      		printf("%d is negative.\n", A);
-            }
+            	}
 	    else{
          	printf("Number is zero.\n");
+	  	}
 	    return 0;
 	}
 
